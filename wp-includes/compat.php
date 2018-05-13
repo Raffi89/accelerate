@@ -499,7 +499,7 @@ if ( ! function_exists( 'spl_autoload_register' ) ):
 	 *
 	 * @param string $classname Class to attempt autoloading.
 	 */
-	function __autoload( $classname ) {
+	function _autoload( $classname ) {
 		global $_wp_spl_autoloaders;
 		foreach ( $_wp_spl_autoloaders as $autoloader ) {
 			if ( ! is_callable( $autoloader ) ) {
