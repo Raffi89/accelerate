@@ -11,8 +11,10 @@
  * @subpackage Accelerate Marketing
  * @since Accelerate Marketing 2.0
  */
-
 get_header(); ?>
+
+<img src="broken-cat.png" alt="broken-cat"/>
+
   <link rel="stylesheet" href="styles.css">
 	<div id="primary" class="site-content">
 		<div class="main-content" role="main">

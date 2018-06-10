@@ -251,9 +251,3 @@ div.case-study-images img {
       margin-left: 2em;
       font-family: 'Open Sans';
     }
-
-#error404
-    .error404 {
-    url(img/broken-cat.jpg) no-repeat scroll right center / cover rgba(0, 0, 0, 0);
-    }
-    /*let's see if this comment gets picked up*/
